@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+ <title>Cards</title>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<style type="text/css">
+.head li{
+    float:left;
+    font-size: 20px;
+    list-style: none; 
+    margin: 1px 15px;
+}
+.head a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.navbar{
+  background: #faeb14;
+  height:80px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  position: sticky;
+  top: 0;
+  z-index:999;
+}
+.navbar__container{
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+
+}
+#navbar__logo{
+    
+    background-size: 100%;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    
+}
+.navbar__menu{
+  float: right;
+  display:flex;
+  align-items: center;
+  justify-content: right;
+  list-style: none;
+  text-align: right;
+  color:black
+}
+.navbar__item{
+  height: 80px;
+}
+.navbar__links{
+  color: #131313;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+}
+
+.navbar__links:hover{
+    color:#fff;
+    transition: all 0.2s ease;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/8263324/pexels-photo-8263324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+}
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: 'Kumbh Sans', sans-serif;
+ box-sizing: border-box;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.card{
+     width: 15%;
+     display: inline-block;
+     box-shadow: 5px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  color: beige;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+  color: antiquewhite;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: rgb(228, 214, 24);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+  
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+</style>
+<body >
+       
+       <nav class="navbar">
+        <div class="navbar__container">
+          <a id="navbar__logo"><i class="fas fa-copyright"></i>ineBox</a>
+          <div class="navbar__toggle" id="mobile-menu">
+              <span class="bar"></span><span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="rhine.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="about.html" class="navbar__links">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__links">Services</a>
+            </li>
+            <li class="navbar__item">
+              <a href="contactus.html" class="navbar__links">Contact Us</a>
+            </li>
+          </ul>
+       </nav>
+    
+
+
+
+ <!--cards -->
+ <a style="color: blanchedalmond;"><h2>Popular on Cinebox</h2></a>
+<div class="main">
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/originals/76/3e/f0/763ef00456c535a5478a7e1eb3acaea4.jpg">
+</div>
+<div class="title">
+ <a style="font-size: 15px;">
+Spider-man Homecoming</a>
+</div>
+<div class="des">
+  <p>IMDb-7.4/10</p>
+    <p>Rotten Tomatoes-92%</p>
+      <p>CSM-4/5
+  </p>
+ 
+<a href="https://www.youtube.com/watch?v=39udgGPyYMg"><button>Trailer</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/originals/17/a8/24/17a8241c9d7af308bde148da2c97caf6.jpg">
+</div>
+<div class="title">
+ <h1>
+Sully</h1>
+</div>
+<div class="des">
+    <p>IMDb-7.4/10</p>
+    <p>Rotten Tomatoes-85%</p>
+    <p>CSM-4.2/5</p>
+
+    <a href="https://www.youtube.com/watch?v=mjKEXxO2KNE"><button>Trailer</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://flxt.tmsimg.com/assets/p35189_p_v8_ah.jpg">
+</div>
+<div class="title">
+ <h1>
+Ocean's Twelve</h1>
+</div>
+<div class="des">
+    <p>IMDb-6.5/10</p>
+    <p>Rotten Tomatoes-54%</p>
+    <p>CSM-3/5</p>
+ 
+<a href="https://www.youtube.com/watch?v=k9uhRSLMORw"><button>Trailer</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://c8.alamy.com/comp/DXCTGH/zero-dark-thirty-DXCTGH.jpg">
+</div>
+<div class="title">
+ <h1>
+Zero dark thirty</h1>
+</div>
+<div class="des">
+    <p>IMDb-7.4/10</p>
+    <p>Rotten Tomatoes-91%</p>
+    <p>CSM-5/5</p>
+
+<a href="https://www.youtube.com/watch?v=LJFra3B9sbA"><button>Trailer</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://c8.alamy.com/comp/RYHBXJ/movie-poster-inception-2010-RYHBXJ.jpg">
+</div>
+<div class="title">
+ <h1>
+Inception</h1>
+</div>
+<div class="des">
+    <p>IMDb-8.8/10</p>
+    <p>Rotten Tomatoes-87%</p>
+    <p>Metacritic-74%</p>
+ 
+<a href="https://www.youtube.com/watch?v=5EiV_HXIIGs"><button>Trailer</button></a>
+</div>
+</div>
+<!--cards -->
+<a style="color: beige;"><p><h2>Crime Movies</h2></p></a><br>
+<div class="card">
+
+<div class="image">
+   <img src="https://m.media-amazon.com/images/M/MV5BNjk4MzVlM2UtZGM0ZC00M2M1LThkMWEtZjUyN2U2ZTc0NmM5XkEyXkFqcGdeQXVyOTAzMTc2MjA@._V1_.jpg">
+</div>
+<div class="title">
+ <h1>
+El Camino:A Breaking Bad Movie</h1>
+</div>
+<div class="des">
+  <p>IMDb-7.3/10</p>
+    <p>Rotten Tomatoes-91%</p>
+      <p>CSM-4/5
+  </p>
+ 
+<a href="https://www.youtube.com/watch?v=1JLUn2DFW4w"><button>Trailer</button></a>
+</div>
+</div>
+<!--cards -->
+<div class="card">
+
+  <div class="image">
+     <img src="https://i.pinimg.com/736x/11/49/cf/1149cf80aabbd9c11924b29eefcceb47.jpg">
+  </div>
+  <div class="title">
+   <h1>
+  Joker</h1>
+  </div>
+  <div class="des">
+    <p>IMDb-8.4/10</p>
+      <p>Rotten Tomatoes-68%</p>
+        <p>CSM-4/5
+    </p>
+   
+  <a href="https://www.youtube.com/watch?v=39udgGPyYMg"><button>Trailer</button></a>
+  </div>
+  </div>
+  <!--cards -->
+  <div class="card">
+
+    <div class="image">
+       <img src="https://i.pinimg.com/originals/85/83/21/858321426a5765037a58753df7cb77d2.jpg">
+    </div>
+    <div class="title">
+     <a style="font-size: 15px;">
+    Gangs of Wasseypur II</a>
+    </div>
+    <div class="des">
+      <p>TOI-4/5</p>
+        <p>Bookmyshow-92%</p>
+          <p>Koimoi-3/5
+      </p>
+     
+    <a href="https://www.youtube.com/watch?v=S3PZbL8JGYQ"><button>Trailer</button></a>
+    </div>
+    </div>
+    <!--cards -->
+    <div class="card">
+
+      <div class="image">
+         <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/eea61c81581189.5d039211432ce.jpg">
+      </div>
+      <div class="title">
+       <h1>
+      Article 15</h1>
+      </div>
+      <div class="des">
+        <p>IMDb-8.2/10</p>
+          <p>HT-4.5/5</p>
+            <p>India Today-3.5/5
+        </p>
+       
+      <a href="https://www.youtube.com/watch?v=HKOJY0cU63E"><button>Trailer</button></a>
+      </div>
+      </div>
+      <!--cards -->
+      <div class="card">
+
+        <div class="image">
+           <img src="https://images-na.ssl-images-amazon.com/images/I/71a5Annn-7L.jpg">
+        </div>
+        <div class="title">
+         <a style="font-size: 12px;">
+        A Walk among the Tombstones</a>
+        </div>
+        <div class="des">
+          <p>IMDb-6.5/10</p>
+            <p>Rotten Tomatoes-68%</p>
+              <p>CSM-3/5
+          </p>
+         
+        <a href="https://www.youtube.com/watch?v=0JjRoh13vzY"><button>Trailer</button></a>
+        </div>
+        </div>
+        <!--cards -->
+        <a style="color: blanchedalmond;"><h2>Oscar-winning Dramas</h2></a>
+        <div class="card">
+
+          <div class="image">
+             <img src="https://i.pinimg.com/originals/48/6d/0b/486d0b48a2aa5c21a3ab5bb0337232ff.jpg">
+          </div>
+          <div class="title">
+           <h1>
+          The Social Network</h1>
+          </div>
+          <div class="des">
+            <p>IMDb-7.7/10</p>
+              <p>Rotten Tomatoes-96%</p>
+                <p>Metacritic-95%
+            </p>
+           
+          <a href="https://www.youtube.com/watch?v=lB95KLmpLR4"><button>Trailer</button></a>
+          </div>
+          </div>
+          <!--cards -->
+     <div class="card">
+
+        <div class="image">
+        <img src="https://m.media-amazon.com/images/M/MV5BYzMzZTU2MjgtZjI1OS00NjdhLTgzNmItNGUzODVlMTg4NTcyXkEyXkFqcGdeQXVyMjc1NjIzOA@@._V1_.jpg">
+        </div>
+        <div class="title">
+        <h1>
+        The Curious Case Of Benjamin Button</h1>
+        </div>
+        <div class="des">
+        <p>IMDb-7.8/10</p>
+        <p>Rotten Tomatoes-71%</p>
+        <p>CSM-4/5
+        </p>
+             
+        <a href="https://www.youtube.com/watch?v=iH6FdW39Hag"><button>Trailer</button></a>
+        </div>
+        </div>
+        <!--cards -->
+     <div class="card">
+
+        <div class="image">
+        <img src="https://static.displate.com/857x1200/displate/2020-05-26/39b651ab115c14b2859cc433ac50e909_1c159cf9dafdec75e82082b432003738.jpg">
+        </div>
+        <div class="title">
+        <h1>
+        Schindler's list</h1>
+        </div>
+        <div class="des">
+        <p>IMDb-8.9/10</p>
+        <p>Rotten Tomatoes-98%</p>
+        <p>CSM-5/5
+        </p>
+               
+        <a href="hhttps://www.youtube.com/watch?v=mxphAlJID9U"><button>Trailer</button></a>
+        </div>
+        </div>
+        <!--cards -->
+    <div class="card">
+
+        <div class="image">
+        <img src="https://acollectivemind.files.wordpress.com/2015/02/theory-of-everything-poster.jpg">
+        </div>
+        <div class="title">
+        <a style="font-size: 15px;">
+        The theory of everything</a>
+        </div>
+        <div class="des">
+        <p>IMDb-7.7/10</p>
+        <p>Rotten Tomatoes-80%</p>
+        <p>CSM-4/5
+        </p>
+                 
+        <a href="https://www.youtube.com/watch?v=Salz7uGp72c"><button>Trailer</button></a>
+        </div>
+        </div>
+        <!--cards -->
+     <div class="card">
+
+         <div class="image">
+         <img src="https://i.pinimg.com/originals/64/5b/5b/645b5b0da72c7aa617184271a91ae60e.jpg">
+         </div>
+        <div class="title">
+        <h1>
+         American sniper</h1>
+        </div>
+        <div class="des">
+        <p>IMDb-7.3/10</p>
+         <p>Rotten Tomatoes-72%</p>
+         <p>CSM-2/5
+        </p>
+                     
+        <a href="https://www.youtube.com/watch?v=99k3u9ay1gs"><button>Trailer</button></a>
+         </div>
+        </div>
+        <!--cards -->
+        
+                                     
+                              
+              
+          
+      
+  
+
+
+</div>
+</div>
+</div>
+</body>
+</html>
